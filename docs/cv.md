@@ -2,9 +2,13 @@
 
 ---
 
+<div align="center">
+<img src="images/profile_photo.jpeg" alt="Profile Photo" width="150"/>
+
 ## RAJA AHSAN ALI
 
 **Position Applied For:** Security Guard
+</div>
 
 ---
 

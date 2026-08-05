@@ -21,26 +21,46 @@ def create_cv():
         section.left_margin = Inches(0.75)
         section.right_margin = Inches(0.75)
     
-    # Header - Name
-    header = doc.add_paragraph()
-    header.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    name_run = header.add_run("RAJA AHSAN ALI")
+    # Create header table for photo and name side by side
+    header_table = doc.add_table(rows=1, cols=2)
+    header_table.alignment = WD_TABLE_ALIGNMENT.CENTER
+    
+    # Left cell - Profile Photo
+    photo_cell = header_table.rows[0].cells[0]
+    photo_paragraph = photo_cell.paragraphs[0]
+    photo_paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    photo_run = photo_paragraph.add_run()
+    photo_run.add_picture('docs/images/profile_photo.jpeg', width=Inches(1.3))
+    
+    # Right cell - Name and Contact Info
+    info_cell = header_table.rows[0].cells[1]
+    
+    # Name
+    name_para = info_cell.paragraphs[0]
+    name_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    name_run = name_para.add_run("RAJA AHSAN ALI")
     name_run.bold = True
     name_run.font.size = Pt(24)
     name_run.font.color.rgb = RGBColor(0, 51, 102)
     
     # Position
-    position = doc.add_paragraph()
-    position.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    pos_run = position.add_run("Security Guard")
+    position_para = info_cell.add_paragraph()
+    position_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    pos_run = position_para.add_run("Security Guard")
     pos_run.font.size = Pt(14)
     pos_run.font.color.rgb = RGBColor(100, 100, 100)
     
-    # Contact info line
-    contact = doc.add_paragraph()
-    contact.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    contact_run = contact.add_run("Email: ehxanali365@gmail.com  |  Phone: +974 33501566  |  Location: Alsaad Rabiea C, Qatar")
+    # Contact info
+    contact_para = info_cell.add_paragraph()
+    contact_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    contact_run = contact_para.add_run("Email: ehxanali365@gmail.com  |  Phone: +974 33501566")
     contact_run.font.size = Pt(10)
+    
+    # Location on separate line
+    location_para = info_cell.add_paragraph()
+    location_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    location_run = location_para.add_run("Location: Alsaad Rabiea C, Qatar")
+    location_run.font.size = Pt(10)
     
     # Add line
     doc.add_paragraph("_" * 80)
