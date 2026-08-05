@@ -32,7 +32,7 @@
 
 ### Professional Summary
 
-Motivated and reliable professional with six months of hands-on experience in Qatar. Proven ability to work efficiently in fast-paced environments with strong attention to detail and excellent coordination skills. Seeking a position as a Security Guard to contribute to maintaining safety and security standards.
+Motivated and reliable professional with six months of hands-on experience in Qatar. Previously worked as a Picker at Snoomart and as a Coordinator at IGI Vitality Insurance Department. Proven ability to work efficiently in fast-paced environments with strong attention to detail and excellent coordination skills. Seeking a position as a Security Guard to contribute to maintaining safety and security standards.
 
 ---
 
@@ -40,12 +40,12 @@ Motivated and reliable professional with six months of hands-on experience in Qa
 
 #### Coordinator
 **IGI Vitality Insurance Department** | Qatar  
-*Current Position*
+*Previous Position*
 
-- Coordinating departmental activities and ensuring smooth operations
-- Handling administrative tasks and documentation
-- Communicating with clients and team members effectively
-- Managing workflow and maintaining organized records
+- Coordinated departmental activities and ensured smooth operations
+- Handled administrative tasks and documentation
+- Communicated with clients and team members effectively
+- Managed workflow and maintained organized records
 
 #### Picker
 **Snoomart** | Qatar  
@@ -88,11 +88,3 @@ Commerce stream with focus on business and accounting fundamentals
 ### References
 
 Available upon request
-
----
-
-*I hereby declare that the information provided above is true and correct to the best of my knowledge.*
-
-**Date:** _______________
-
-**Signature:** _______________
