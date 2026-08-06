@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![Profile Photo](images/profile_photo.jpeg)
+<img src="https://raw.githubusercontent.com/Moeenuddin178/ahsan-cv/main/docs/images/profile_photo.jpeg" alt="Raja Ahsan Ali" width="150" style="border-radius: 10px;"/>
 
 ## RAJA AHSAN ALI
 
