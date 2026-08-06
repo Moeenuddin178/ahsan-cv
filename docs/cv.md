@@ -3,7 +3,8 @@
 ---
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Moeenuddin178/ahsan-cv/main/docs/images/profile_photo.jpeg" alt="Profile Photo" width="150"/>
+
+![Profile Photo](images/profile_photo.jpeg)
 
 ## RAJA AHSAN ALI
 
